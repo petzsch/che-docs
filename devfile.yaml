@@ -1,5 +1,11 @@
 metadata:
   name: che-docs-in-che
+projects:
+  - name: che-docs
+    source:
+      location: 'https://github.com/petzsch/che-docs.git'
+      type: git
+      branch: master
 components:
   - mountSources: true
     endpoints:
